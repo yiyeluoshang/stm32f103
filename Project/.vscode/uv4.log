@@ -1,0 +1,15 @@
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Target 1'
+compiling usart.c...
+..\SoureFiles\Bsp\usart.c(3): warning:  #177-D: function "nvic_conf"  was declared but never referenced
+  static void nvic_conf(void)
+..\SoureFiles\Bsp\usart.c(14): warning:  #177-D: function "usart_gpio_init"  was declared but never referenced
+  static void usart_gpio_init(void)
+..\SoureFiles\Bsp\usart.c(39): warning:  #177-D: function "usart_config"  was declared but never referenced
+  static void usart_config(uint32_t baudrate)
+..\SoureFiles\Bsp\usart.c: 3 warnings, 0 errors
+linking...
+Program Size: Code=2072 RO-data=336 RW-data=96 ZI-data=1072  
+FromELF: creating hex file...
+"..\Output\stm32_f103.axf" - 0 Error(s), 3 Warning(s).
+Build Time Elapsed:  00:00:01
